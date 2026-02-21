@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SorteadorDeNumeros</string>
+    <string name="backgroung_principal">Backgroung principal</string>
+    <string name="logo">Logo</string>
+    <string name="sorteador_de_numeros">SORTEADOR DE NUMEROS</string>
+    <string name="sortear">Sortear</string>
+    <string name="como_funciona_o_sorteador_de_n_meros">Como funciona o sorteador de números?</string>
+    <string name="o_sorteador_utiliza_um_algoritmo_contain">O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</string>
+    <string name="posso_escolher_o_intervalo_dos_n_meros">Posso escolher o intervalo dos números?</string>
+    <string name="sim_voc_pode_contain">Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quero_sortear">Quero sortear:</string>
+    <string name="defina_o_intervalo_contain">Defina o intervalo e a quantidade de números, clique em Sortear e veja os resultados na tela. É rápido e fácil!</string>
+    <string name="n_meros">NÚMEROS</string>
+    <string name="de">DE</string>
+    <string name="at">ATÉ</string>
+    <string name="n_o_repetir_n_mero">Não repetir número</string>
+    <string name="resultado_do_sorteio">RESULTADO DO SORTEIO</string>
+    <string name="primeiro_resultado">%1$sº RESULTADO</string>
+    <string name="_1">1</string>
+    <string name="sortear_novamente">Sortear novamente</string>
+</resources>

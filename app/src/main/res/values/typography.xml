@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.Sora.DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
+
+        <item name="android:fontFamily">@font/sora</item>
+        <item name="android:textSize">40sp</item>
+
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+
+    </style>
+
+    <style name="TextAppearance.Sora.DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
+
+        <item name="android:fontFamily">@font/sora</item>
+        <item name="android:textSize">32sp</item>
+
+        <item name="android:lineSpacingExtra">3sp</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+
+    </style>
+
+    <style name="TextAppearance.RobotoMono.Overline"
+        parent="TextAppearance.MaterialComponents.Overline">
+        <item name="android:fontFamily">@font/roboto_mono</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.RobotoFlex.LabelSmall"
+        parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/roboto_flex</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.RobotoFlex.ParagraphMedium"
+        parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">@font/roboto_flex</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.RobotoFlex.ParagraphSmall"
+        parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/roboto_flex</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+
+
+
+</resources>

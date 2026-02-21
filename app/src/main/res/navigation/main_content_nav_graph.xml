@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content_nav_graph"
+    app:startDestination="@id/configSorteioFragment">
+
+    <fragment
+        android:id="@+id/configSorteioFragment"
+        android:name="br.com.camolez.sorteadordenumeros.ConfigSorteioFragment"
+        android:label="fragment_config_sorteio"
+        tools:layout="@layout/fragment_config_sorteio" >
+        <action
+            android:id="@+id/action_configSorteioFragment_to_resultadoFragment"
+            app:destination="@id/resultadoFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadoFragment"
+        android:name="br.com.camolez.sorteadordenumeros.ResultadoFragment"
+        android:label="fragment_resultado"
+        tools:layout="@layout/fragment_resultado" />
+</navigation>
